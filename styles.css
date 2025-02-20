@@ -1,0 +1,254 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 603px;
+  top: -794px;
+  left: 430px;
+}
+
+.page-title-container {
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+  color: #ff6b82;
+}
+
+.page-title-container::before,
+.page-title-container::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px; /* Line thickness */
+  background-color: #c8c8c8;
+  display: inline-block;
+}
+
+.page-title {
+  margin: 0 15px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.box-details {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.box-selection-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.unit-box-detail {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.unit {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.unit-offer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.offer {
+  background-color: #ff6b82;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 2px 6px;
+}
+
+.original-price {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  color: #767575;
+  text-align: left;
+  margin-top: 2px;
+  text-decoration: line-through;
+}
+
+.table-header {
+  padding: 3px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.table-series-column {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.table-input-column {
+  padding: 3px;
+  text-align: left;
+}
+
+.font-12-400 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-12-400 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.table-container {
+  border-collapse: collapse;
+  margin-left: 40px;
+  background-color: #fff9fa;
+}
+
+.size-colour-input {
+  border-radius: 1.81px 0px 0px 0px;
+  border: 0.9px solid #d9d9d9;
+  width: 72.3px;
+  height: 25.31px;
+  font-family: Inter;
+  font-size: 10.85px;
+  font-weight: 400;
+}
+
+.size-colour-input option {
+  font-family: Inter;
+  font-size: 10.85px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.size-colour-input:focus,
+.size-colour-input:active {
+  outline: none;
+  border-color: #ff6b82;
+}
+
+.most-popular-badge {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  z-index: 1;
+  border-radius: 1.81px 0px 0px 0px;
+  border: 0.9px 0px 0px 0px;
+  font-family: Inter;
+  font-weight: 700;
+  background-color: #ff6b82;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.box.active {
+  border: 2px solid #ff6b82;
+  background-color: #fff9fa;
+}
+
+.radio-btn:checked {
+  accent-color: #f75c9c;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.box-content {
+  display: none;
+}
+
+.box.active .box-content {
+  display: block;
+  background-color: #fff9fa;
+}
+
+.delivery-details {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery-content {
+  color: #ff6b82;
+  font-size: 14px;
+  font-weight: 500;
+}
+.total-price {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.add-to-cart {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff6b82;
+  margin-bottom: 5px;
+}
+
+.add-to-cart-icon {
+  width: 16px;
+  height: 16px;
+  padding: 3.33px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.powered-by {
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 14.52px;
+  color: #00000066;
+  text-align: right;
+}
